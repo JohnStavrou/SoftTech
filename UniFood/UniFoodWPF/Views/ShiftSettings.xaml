@@ -1,0 +1,40 @@
+﻿<Window
+        x:Class="UniFoodWPF.Views.ShiftSettings"    
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dtp="http://schemas.xceed.com/wpf/xaml/toolkit"
+        WindowStartupLocation="CenterScreen"
+        Closing="ShiftSettings_OnClosing"    
+        Height="220" Width="600" 
+        ResizeMode="NoResize"
+        Background="#2c3e50"
+        Title="Ρυθμίσεις">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Background="Black"/>
+        <Label Grid.Row="0" Grid.Column="1" Content="Από" Foreground="White" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black"/>
+        <Label Grid.Row="0" Grid.Column="2" Content="Μέχρι" Foreground="White" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderThickness="1" BorderBrush="Black"/>
+
+        <Label Grid.Row="1" Grid.Column="0" Content="Μεσημεριανό:" Foreground="White" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderThickness="1" BorderBrush="Black"/>
+        <dtp:DateTimePicker Grid.Row="1" Grid.Column="1" x:Name="LStartTimePicker" BorderThickness="1" BorderBrush="Black" FontSize="20" ShowDropDownButton="False" Format="LongTime"/>
+        <dtp:DateTimePicker Grid.Row="1" Grid.Column="2" x:Name="LEndTimePicker" BorderThickness="1" BorderBrush="Black" FontSize="20" ShowDropDownButton="False" Format="LongTime"/>
+
+        <Label Grid.Row="2" Grid.Column="0" Content="Βραδινό:" Foreground="White" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderThickness="1" BorderBrush="Black"/>
+        <dtp:DateTimePicker Grid.Row="2" Grid.Column="1" x:Name="DStartTimePicker" BorderThickness="1" BorderBrush="Black" FontSize="20" ShowDropDownButton="False" Format="LongTime"/>
+        <dtp:DateTimePicker Grid.Row="2" Grid.Column="2" x:Name="DEndTimePicker" BorderThickness="1" BorderBrush="Black" FontSize="20" ShowDropDownButton="False" Format="LongTime"/>
+        
+        <Button Grid.Row="3" Grid.Column="1" Content="Αποθήκευση" FontSize="25" Height="40" Background="White" Click="SaveButton_OnClick"/>
+    </Grid>
+</Window>

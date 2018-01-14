@@ -3,38 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniFoodWPF", "..\..\..\..\Desktop\SoftTech\UniFood\UniFood\UniFoodWPF.csproj", "{402A4957-461F-496F-93B2-9B340A645575}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniFoodWebService", "..\..\..\..\Desktop\New folder\softechwebService\UniFoodWebService.csproj", "{209FA716-A7AD-4095-BD70-C8710FC66FA7}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "App1", "E:\SoftTech\WpfApp2\App1\App1\App1.shproj", "{CA0DF80E-7F86-431C-9AA5-77032D02F4B1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UniFoodApp", "UniFoodApp", "{CB79E326-9C9C-4F82-A575-C37F6AD6F738}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1.Android", "E:\SoftTech\WpfApp2\App1\App1.Android\App1.Android.csproj", "{B83BFAF8-DD4F-4A38-8146-8A22081C4184}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniFoodWPF", "..\..\..\..\Desktop\SoftTech\UniFood\UniFoodWPF\UniFoodWPF.csproj", "{402A4957-461F-496F-93B2-9B340A645575}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		E:\SoftTech\WpfApp2\App1\App1\App1.projitems*{b83bfaf8-dd4f-4a38-8146-8a22081c4184}*SharedItemsImports = 4
-		E:\SoftTech\WpfApp2\App1\App1\App1.projitems*{ca0df80e-7f86-431c-9aa5-77032d02f4b1}*SharedItemsImports = 13
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{402A4957-461F-496F-93B2-9B340A645575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{402A4957-461F-496F-93B2-9B340A645575}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{402A4957-461F-496F-93B2-9B340A645575}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{402A4957-461F-496F-93B2-9B340A645575}.Release|Any CPU.Build.0 = Release|Any CPU
 		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{209FA716-A7AD-4095-BD70-C8710FC66FA7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B83BFAF8-DD4F-4A38-8146-8A22081C4184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B83BFAF8-DD4F-4A38-8146-8A22081C4184}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B83BFAF8-DD4F-4A38-8146-8A22081C4184}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{B83BFAF8-DD4F-4A38-8146-8A22081C4184}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B83BFAF8-DD4F-4A38-8146-8A22081C4184}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B83BFAF8-DD4F-4A38-8146-8A22081C4184}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{402A4957-461F-496F-93B2-9B340A645575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402A4957-461F-496F-93B2-9B340A645575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402A4957-461F-496F-93B2-9B340A645575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402A4957-461F-496F-93B2-9B340A645575}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
